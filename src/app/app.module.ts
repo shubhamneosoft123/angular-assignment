@@ -31,7 +31,7 @@ import { CharPipe } from './char.pipe';
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
+    HeaderComponent, 
     ArticleComponent,
     FooterComponent,
     HomeComponent,

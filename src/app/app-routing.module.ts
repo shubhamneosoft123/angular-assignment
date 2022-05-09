@@ -18,6 +18,7 @@ import { ShowEmployeeComponent } from './show-employee/show-employee.component';
 import { SwitchComponent } from './switch/switch.component';
 
 const routes: Routes = [
+  {path: '', redirectTo: '/article', pathMatch: 'full'},
   {path:"article",component:ArticleComponent},
   {path:"property-binding",component:PropertyBindingComponent},
   {path:"ngfor",component:NgforComponent},
